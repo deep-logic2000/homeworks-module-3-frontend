@@ -1,0 +1,5 @@
+export const SET_MODAL_OPEN = "SET_MODAL_OPEN";
+export const CLOSE_MODAL = "CLOSE_MODAL";
+export const SET_MODAL_TEXT = "SET_MODAL_TEXT";
+export const SET_ACTIVE_ACCOUNT_ID = "SET_ACTIVE_ACCOUNT_ID";
+export const SET_ACTIVE_USER_ID = "SET_ACTIVE_USER_ID";
