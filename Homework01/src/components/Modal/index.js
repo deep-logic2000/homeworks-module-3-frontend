@@ -47,7 +47,6 @@ const ModalComponent = ({ onSubmit, fields, setModalFields }) => {
 
   const handleChange = (field) => (event) => {
     setFormValues({ ...formValues, [field.name]: event.target.value });
-    console.log("formValues in handleChange", formValues);
   };
 
   const handleSelectChange = (event) => {

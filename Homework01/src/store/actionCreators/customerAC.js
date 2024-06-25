@@ -92,7 +92,6 @@ export const createCustomer =
     await createCustomerApi(name, email, age, password, phoneNumber)
       .then((rsp) => {
         if (rsp.status === 200) {
-          console.log("response in createCustomerApi:", rsp);
           const newCustomer = rsp.data;
           dispatch({
             type: ADD_CUSTOMER,
